@@ -3,7 +3,7 @@ defmodule Hub do
   Documentation for `Hub`.
   """
   HTTPotion.start()
-  @username "ArtemGits"
+  @username "artemius-warp-dev"
 
   "https://api.github.com/users/#{@username}/repos"
   |> HTTPotion.get("User-Agent": "Elixir")
